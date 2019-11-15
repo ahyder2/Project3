@@ -4,7 +4,7 @@ function initMap(){
 	center: {lat: 41.833895, lng: -87.627395},
 	zoom: 13,
 	styles: [
-	{elementType: 'geometry', stylers [{color: '#5B14C2'}]},
+	{elementType: 'geometry', stylers: [{color: '#5B14C2'}]},
 	{elementType: 'labels.text.stroke', stylers: [{color: '5B14C2'}]},
     {elementType: 'labels.text.fill', stylers: [{color: '#852E5'}]},
     {
