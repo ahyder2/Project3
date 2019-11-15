@@ -2,10 +2,12 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <title>Asim Hyder: Home Page</title>
+      <title>Map Page</title>
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="script" href="js/map.js">
+      <script src="js/map.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAek3tRLBhwPOfrZE7xIW2CrZSGUbuJODc&callback=initMap" async defer></script>
    </head>
    <body>
    	<h2 class="navtitle">
@@ -20,12 +22,10 @@
          </ul>
       </nav>
       <h1 class="section">
-      	Take a Look At This Map!
+      	The Map!
       </h1>
-
-		<div id="mapcontainer"></div>
-
-      <script src="js/map.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfJ9sKFDQlSqqO3umKBhcb_hNVUxJtGTc&callback=initMap" async defer></script>
+      	<div id="wrapper">
+			<div id="mapcontainer"></div>
+		</div>
    </body>
    </html>
