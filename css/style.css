@@ -175,12 +175,9 @@ ul.list
 }
 
 #mapcontainer{
-    width: 75%;
-    height: 75%;
-    margin-left: 10%;
-    margin-right: 10%;
+    height: 100%;
 }
-html, body{
+html.mapcontainer, body.mapcontainer{
     height: 100%;
     margin: 0;
     padding: 0;
