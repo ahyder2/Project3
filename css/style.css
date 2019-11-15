@@ -182,7 +182,7 @@ html.mapcontainer, body.mapcontainer{
     margin: 0;
     padding: 0;
 }
-/*
+
 @media screen and (min-width: 400px) and (max-width: 1200px){
     body{
     background-color: #5656D8;
@@ -238,6 +238,25 @@ html.mapcontainer, body.mapcontainer{
     {
         width: 100%;
     }
+    img.self
+    {
+        width: 30%;
+        height: 30%;
+        border-radius: 1em;
+        border: solid black 2px;
+    }
+    img.scarhawk
+    {
+        width: 20%;
+        height: 20%;
+        border: solid white .34em;
+    }
+    img.overwatch
+    {
+        width: 35%;
+        height: 35%;
+        border: solid red .083em;
+    }
     #mapcontainer{
         height: 100%;
     }
@@ -246,4 +265,4 @@ html.mapcontainer, body.mapcontainer{
         margin: 0;
         padding: 0;
     }
-}*/
+}
