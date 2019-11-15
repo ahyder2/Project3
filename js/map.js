@@ -1,9 +1,8 @@
 var map;
-var location;
+
 function initMap(){
-	location = {lat: 41.833895, lng: -87.627395},
 	map = new google.maps.Map(document.getElementById('mapcontainer'), {
-	center: location,
+	center: {lat: 41.833895, lng: -87.627395},
 	zoom: 13,
 	styles: [
 	{elementType: 'geometry', stylers [{color: '#5B14C2'}]},
@@ -86,4 +85,5 @@ function initMap(){
     }
 	]
 	}
+	)
 }
