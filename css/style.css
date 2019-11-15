@@ -177,13 +177,13 @@ ul.list
 #mapcontainer{
     height: 100%;
 }
-html, body{
+html.mapcontainer, body.mapcontainer{
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-@media screen and (min-width: 400px) and (max-width: 1200px){
+@media screen and (min-width: 400px) and (max-width: 1199px){
     body{
     background-color: #5656D8;
     }
@@ -241,7 +241,7 @@ html, body{
     #mapcontainer{
         height: 100%;
     }
-    html, body{
+    html.mapcontainer, body.mapcontainer{
         height: 100%;
         margin: 0;
         padding: 0;
