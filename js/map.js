@@ -2,10 +2,9 @@ var map;
 var location;
 function initMap(){
 	location = {lat: 41.833895, lng: -87.627395}
-	map = new google.maps.Map(document.getElementById('map'))
+	map = new google.maps.Map(document.getElementById('mapcontainer'))
 	center: location,
 	zoom: 13,
-	mapTypeControlOptions: {mapTypeIds: ['roadmap', 'sattelite', 'hybrid', 'terrain', 'styled_map']},
 	styles: [
 	{elementType: 'geometry', stylers [{color: '#5B14C2'}]},
 	{elementType: 'labels.text.stroke', stylers: [{color: '5B14C2'}]},
