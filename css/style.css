@@ -177,7 +177,7 @@ ul.list
 #mapcontainer{
     height: 100%;
 }
-html.mapcontainer, body.mapcontainer{
+html, body{
     height: 100%;
     margin: 0;
     padding: 0;
