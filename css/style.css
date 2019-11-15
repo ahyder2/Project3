@@ -238,4 +238,12 @@ html.mapcontainer, body.mapcontainer{
     {
         width: 100%;
     }
+    #mapcontainer{
+        height: 100%;
+    }
+    html.mapcontainer, body.mapcontainer{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
 }
