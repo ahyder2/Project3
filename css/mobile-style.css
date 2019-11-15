@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+body
+{
+    background-color: #8585E0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body#esportsbody
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+body#resumebody
+{
+    width: 1200px;
+}
+nav
+{
+    text-align: center;
+    display: inline;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 2px;
+    background-color: #4D5093;
+    overflow: hidden;
+}
+nav li
+{
+    border: white solid 1px;
+    display: inline;
+
+}
+nav li a
+{
+    display: inline-block;
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+    font-size: 110%;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+nav li a:hover
+{
+    background-color: #272C8C;
+}
+nav li a.active
+{
+    background-color: #272C8C;
+    border: white solid .1em;
+}
+h2.navtitle
+{
+    margin: 0 auto;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 80%;
+    text-align: center;
+    background-color: #4D5093;
+    width: 10em;
+    padding: .5em;
+    border: white solid .1em;
+    color: white;
+}
+h1.indextitle
+{
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+}
+h1.esportstitle
+{
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+    font-style: italic;
+    text-decoration: underline overline;
+}
+h1.section
+{
+    font-family: 'Acme', sans-serif;
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    text-shadow: .083em .083em #7D7D8C; 
+    background-color: #00034F;
+    width: 15em;
+    padding: .75em;
+    border: black solid .167em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h2.about
+{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    background-color: #000464;
+    width: 20em;
+    padding: .5em;
+    border: black solid .167em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h2.locationtime
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: .083em .083em white;
+}
+h2.area
+{
+    font-size: 90%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3.role
+{
+    font-style: italic;
+}
+h3.owl
+{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 80%;
+    color: white;
+    text-align: center;
+    background-color: #000464;
+    width: 20em;
+    padding: .5em;
+    border: black solid .167em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+img.self
+{
+    width: 30%;
+    height: 30%;
+    border-radius: 1em;
+    border: solid black 2px;
+}
+img.scarhawk
+{
+    width: 20%;
+    height: 20%;
+    border: solid white .34em;
+}
+img.overwatch
+{
+    width: 35%;
+    height: 35%;
+    border: solid red .083em;
+}
+iframe.video
+{
+    width: 80em;
+    height: 45em;
+    border-radius: 1em;
+    border: solid blue .167em;
+}
+ul.list
+{
+    width: 30%;
+    margin: auto;
+}
+
+#mapcontainer{
+    height: 100%;
+}
+html.mapcontainer, body.mapcontainer{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
