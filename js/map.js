@@ -5,9 +5,9 @@ function initMap(){
 	map = new google.maps.Map(document.getElementById('map'))
 	center: location,
 	zoom: 13,
-	mapTypeControlOptions: {mapTypeIds: ['roadmap', 'sattelite', 'hybrid', 'terrain', 'styled_map']}
+	mapTypeControlOptions: {mapTypeIds: ['roadmap', 'sattelite', 'hybrid', 'terrain', 'styled_map']},
 	styles: [
-	{elementType: 'geometry', stylers [{color: '#5B14C2'}]}
+	{elementType: 'geometry', stylers [{color: '#5B14C2'}]},
 	{elementType: 'labels.text.stroke', stylers: [{color: '5B14C2'}]},
     {elementType: 'labels.text.fill', stylers: [{color: '#852E5'}]},
     {
