@@ -182,7 +182,7 @@ html.mapcontainer, body.mapcontainer{
     margin: 0;
     padding: 0;
 }
-
+/*
 @media screen and (min-width: 400px) and (max-width: 1200px){
     body{
     background-color: #5656D8;
@@ -246,4 +246,4 @@ html.mapcontainer, body.mapcontainer{
         margin: 0;
         padding: 0;
     }
-}
+}*/
