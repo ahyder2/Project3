@@ -86,3 +86,24 @@ function initMap(){
 	}
 	)
 }
+var index=1;
+function picDisplay(n){
+    var k;
+    var pics = document.getElementByClassName("overwatch");
+    if (n>pics.length) {
+        index = 1
+    }
+    if (n<1) {
+        index = pics.length
+    }
+    for (k = 0; k <pics.length; k++){
+        pics[k].style.display = 'none';
+    }
+    if(pics.length > 0){
+        pics[index-1].style.display = 'block';
+    }
+}
+function next(n){
+    picDisplay(index += n);
+}
+picDisplay(index);

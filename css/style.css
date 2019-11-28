@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@media screen and (min-width: 800px)
 body
 {
     background-color: #8585E0;
@@ -182,8 +183,16 @@ html, body{
     margin: 0;
     padding: 0;
 }
-
-@media screen and (min-width: 400px) and (max-width: 1200px){
+.previous .nextpic{
+    cursor: pointer;
+    width: auto;
+    top: 25%;
+    padding: 1em;
+    color: #272C8C;
+    user-select: none;
+}
+}
+@media screen and (max-width: 720px){
     body{
     background-color: #5656D8;
     }
