@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
-@media screen and (min-width: 800px)
+@media screen and (min-width: 800px){
 body
 {
     background-color: #8585E0;
@@ -190,6 +190,13 @@ html, body{
     padding: 1em;
     color: #272C8C;
     user-select: none;
+}
+.nextpic{
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+.overwatch:not(:first-of-type){
+    display: none;
 }
 }
 @media screen and (max-width: 720px){
