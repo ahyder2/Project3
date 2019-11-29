@@ -87,6 +87,13 @@ function initMap(){
 	)
 }
 var index=1;
+picDisplay(index);
+function next(n){
+    picDisplay(index += n);
+}
+function current(n){
+    picDisplay(index = n);
+}
 function picDisplay(n){
     var k;
     var pics = document.getElementByClassName("overwatch");
@@ -103,7 +110,4 @@ function picDisplay(n){
         pics[index-1].style.display = 'block';
     }
 }
-function next(n){
-    picDisplay(index += n);
-}
-picDisplay(index);
+
