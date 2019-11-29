@@ -182,6 +182,11 @@ html, body{
     margin: 0;
     padding: 0;
 }
+.sliderContainer {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
 .previous .nextpic{
     cursor: pointer;
     width: auto;
