@@ -96,7 +96,7 @@ function currentPic(n){
 }
 function picDisplay(n){
     var k;
-    var pics = document.getElementByClassName("overwatch");
+    var pics = document.getElementByClassName("sliderCurrent");
     if (n>pics.length) {
         index = 1
     }
