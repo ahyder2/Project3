@@ -191,7 +191,7 @@ html, body{
 .sliderCurrent{
     display: none;
 }
-.previous, .next {
+.prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -207,7 +207,7 @@ html, body{
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-/*
+
 @media screen and (min-width: 400px){
     body{
     background-color: #5656D8;
@@ -292,4 +292,3 @@ html, body{
         padding: 0;
     }
 }
-*/
