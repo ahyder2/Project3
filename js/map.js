@@ -88,12 +88,13 @@ function initMap(){
 }
 var picIndex = 1;
 picDisplay(picIndex);
-function nextPic(n){
+
+function nextPic(n) {
     picDisplay(picIndex += n);
 }
 function picDisplay(n){
     var k;
-    var pics = document.getElementByClassName("overwatch");
+    var pics = document.getElementByClassName("sliderCurrent");
     if (n > pics.length) {
         picIndex = 1
     }
@@ -103,8 +104,6 @@ function picDisplay(n){
     for (k = 0; k < pics.length; k++){
         pics[k].style.display = 'none';
     }
-    if (pics.length >0 ) {
-        pics[picIndex - 1].style.display = 'initial';
-    }
+    pics[picIndex - 1].style.display = 'block';
 }
 

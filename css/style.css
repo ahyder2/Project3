@@ -182,22 +182,29 @@ html, body{
     margin: 0;
     padding: 0;
 }
-.previous, .next{
-    cursor: pointer;
-    width: auto;
-    top: 50%;
-    padding: 1em;
-    color: #272C8C;
-    user-select: none;
-    position: absolute;
-    transition: 0.5s ease;
+.sliderContaier{
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
 }
-.next{
+.sliderCurrent{
+    display: none;
+}
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #272C8C;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-}
-.overwatch:not(:first-of-type){
-    display: none;
 }
 @media screen and (min-width: 400px){
     body{
