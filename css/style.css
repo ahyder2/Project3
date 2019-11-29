@@ -199,7 +199,7 @@ html, body{
     right: 0;
     border-radius: 2px 0 0 2px;
 }
-.sliderCurrent{
+.sliderCurrent:not(:first-of-type){
     display: none;
 }
 @media screen and (min-width: 400px){
