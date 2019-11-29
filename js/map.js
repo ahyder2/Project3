@@ -95,15 +95,11 @@ function nextPic(n) {
 function picDisplay(n) {
     var k;
     var pics = document.getElementByClassName("sliderCurrent");
-    if (n > pics.length) {
-        picIndex = 1
-    }
-    if (n < 1) {
-        picIndex = pics.length
-    }
+    if (n > pics.length) {picIndex = 1}
+    if (n < 1) {picIndex = pics.length}
     for (k = 0; k < pics.length; k++){
-        pics[k].style.display = 'none';
+        pics[k].style.display = "none";
     }
-    pics[picIndex - 1].style.display = 'block';
+    pics[picIndex - 1].style.display = "block";
 }
 
