@@ -86,28 +86,26 @@ function initMap(){
 	}
 	)
 }
-var index=1;
-picDisplay(index);
+var picIndex = 1;
+picDisplay(picIndex);
 function nextPic(n){
-    picDisplay(index += n);
+    picDisplay(picIndex += n);
 }
 function currentPic(n){
-    picDisplay(index = n);
+    picDisplay(picIndex = n);
 }
 function picDisplay(n){
     var k;
     var pics = document.getElementByClassName("sliderCurrent");
-    if (n>pics.length) {
-        index = 1
+    if (n > pics.length) {
+        picIndex = 1
     }
-    if (n<1) {
-        index = pics.length
+    if (n < 1) {
+        picIndex = pics.length
     }
-    for (k = 0; k <pics.length; k++){
+    for (k = 0; k < pics.length; k++){
         pics[k].style.display = 'none';
     }
-    if(pics.length > 0){
-        pics[index-1].style.display = 'block';
-    }
+    pics[picIndex - 1].style.display = 'block';
 }
 
