@@ -189,7 +189,7 @@ html, body{
     max-width: 1000px;
     margin: auto;
 }
-.sliderCurrent:not(:first-of-type){
+.sliderCurrent{
     display: none;
 }
 .prev, .next {
