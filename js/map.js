@@ -91,9 +91,6 @@ picDisplay(picIndex);
 function nextPic(n){
     picDisplay(picIndex += n);
 }
-function currentPic(n){
-    picDisplay(picIndex = n);
-}
 function picDisplay(n){
     var k;
     var pics = document.getElementByClassName("sliderCurrent");
