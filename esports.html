@@ -5,6 +5,7 @@
       <title>Asim Hyder</title>
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src="js/map.js"></script>
    </head>
    <body id="esportsbody">
       <h2 class="navtitle">
@@ -36,12 +37,16 @@
       <h2 class="about">
          Overwatch League
       </h2>
-      <picture>
+      <div class="sliderContainer">
+         <div class="sliderCurrent">
+            <img src = "images/owlteams.jpg" alt="" class="overwatch">
+         </div>
+         <div class="sliderCurrent">
+            <img src = "images/tdny.jpg" class="overwatch">
+         </div>
          <a href="previous" onclick="nextPic(-1)">&#10094;</a>
-         <img src = "images/owlteams.jpg" alt="" class="overwatch">
-         <img src = "images/tdny.jpg" class="overwatch">
          <a href="nextpic" onclick="nextPic(1)">&#10095;</a>
-      </picture>
+      </div>
       <h3 class="owl">
          What is OWL?
       </h3>
