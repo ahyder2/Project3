@@ -187,7 +187,7 @@ html, body{
     margin: auto;
     position: relative;
 }
-.previous .next{
+.previous, .next{
     cursor: pointer;
     width: auto;
     top: 50%;
