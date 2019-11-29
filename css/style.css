@@ -201,7 +201,7 @@ html, body{
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-.sliderCurrent:not(:first-of-type){
+.overwatch:not(:first-of-type){
     display: none;
 }
 @media screen and (min-width: 400px){
