@@ -188,7 +188,7 @@ html, body{
     max-width: 1000px;
     margin: auto;
 }
-.sliderCurrent{
+.sliderCurrent:not(:first-of type){
     display: none;
 }
 .prev, .next {
