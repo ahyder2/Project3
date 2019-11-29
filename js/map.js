@@ -103,6 +103,8 @@ function picDisplay(n){
     for (k = 0; k < pics.length; k++){
         pics[k].style.display = 'none';
     }
-    pics[picIndex - 1].style.display = 'block';
+    if (pics.length >0 ) {
+        pics[picIndex - 1].style.display = 'initial';
+    }
 }
 
