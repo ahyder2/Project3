@@ -92,7 +92,7 @@ picDisplay(picIndex);
 function nextPic(n) {
     picDisplay(picIndex += n);
 }
-function picDisplay(n){
+function picDisplay(n) {
     var k;
     var pics = document.getElementByClassName("sliderCurrent");
     if (n > pics.length) {

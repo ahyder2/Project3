@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@media screen and (min-width: 1000px){
 body
 {
     background-color: #8585E0;
@@ -207,7 +208,7 @@ html, body{
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-/*
+}
 @media screen and (min-width: 400px){
     body{
     background-color: #5656D8;
@@ -292,4 +293,3 @@ html, body{
         padding: 0;
     }
 }
-*/
