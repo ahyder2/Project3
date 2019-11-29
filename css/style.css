@@ -146,14 +146,14 @@ h3.owl
 img.self
 {
     width: 30%;
-    height: 70%;
+    height: 30%;
     border-radius: 1em;
     border: solid black 2px;
 }
 img.scarhawk
 {
     width: 20%;
-    height: 40%;
+    height: 20%;
     border: solid white .34em;
 }
 img.overwatch
@@ -188,7 +188,7 @@ html, body{
     max-width: 1000px;
     margin: auto;
 }
-.sliderCurrent:not(:first-of type){
+.sliderCurrent:not(:first-of-type){
     display: none;
 }
 .prev, .next {
@@ -207,7 +207,7 @@ html, body{
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
+/*
 @media screen and (min-width: 400px){
     body{
     background-color: #5656D8;
@@ -292,3 +292,4 @@ html, body{
         padding: 0;
     }
 }
+*/
