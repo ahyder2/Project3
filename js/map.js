@@ -88,10 +88,10 @@ function initMap(){
 }
 var index=1;
 picDisplay(index);
-function next(n){
+function nextPic(n){
     picDisplay(index += n);
 }
-function current(n){
+function currentPic(n){
     picDisplay(index = n);
 }
 function picDisplay(n){

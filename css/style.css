@@ -248,6 +248,7 @@ html, body{
     body#resume
     {
         width: 100%;
+        text-align: center;
     }
     img.self
     {
