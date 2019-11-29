@@ -93,7 +93,7 @@ function nextPic(n){
 }
 function picDisplay(n){
     var k;
-    var pics = document.getElementByClassName("sliderCurrent");
+    var pics = document.getElementByClassName("overwatch");
     if (n > pics.length) {
         picIndex = 1
     }
