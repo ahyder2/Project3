@@ -268,7 +268,7 @@ html, body{
     img.self
     {
         width: 30%;
-        height: 30%;
+        height: 80%;
         border-radius: 1em;
         border: solid black 2px;
     }
